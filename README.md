@@ -28,7 +28,7 @@
      (컴파일러의 RVO 최적화를 깨뜨리기 때문)
      <br></br>
 4. 람다식
-   - [capture] (parameters) <specifiers>-><return_type>{<body>}"로 구성
+   - [capture] (parameters) specifiers -> return_type {body}로 구성
    - (장점) 간단한 함수를 빠르게 작성하기엔 유용하나 <br>
      (단점) 재사용성이 낮고 디버깅이 어려움
    - sort, 쓰레드 라이브러리의 conditional_variable::wait에 주로 사용
