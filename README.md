@@ -22,7 +22,7 @@
    - std::move를 사용해 lvalue를 rvalue 레퍼런스로 변경한 경우<br>
      원칙적으로 이동 후 rvalue에 저장된 값은 모두 삭제시켜야 함
    - 이동 생성자와 이동 대입에 주로 사용
-   - 그러나 함수를 rvalue로 반환하는 것은 매우 느림
+   - 그러나 함수를 rvalue로 반환하는 것은 매우 느림<br>
      (컴파일러의 RVO 최적화를 깨뜨리기 때문)
 4. 람다식
    - [<capture>](<parameters>)<specifiers>-><return_type>{<body>}로 구성
