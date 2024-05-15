@@ -1,9 +1,20 @@
 #include <iostream>
-#include "SimpleHashMap.h"
-#include "SimpleHashMapTest.h"
+#include "FileSystemSample.h"
+#include "MultiThread.h"
+#include "AutoResetTimerExample.h"
+
 
 int main()
-{
-	SimpleHashMapExample();
+{	
+	//makeChildThread();
+	//CheckJoinable();
+	//passTheReference();
+	//usingYield();
+	//usingScopedLock();
+	
+	//multiThreadingExample();
+	//BestMarket();
+	AutoResetTimerExample();
+
 	return 0;
 }

@@ -132,16 +132,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Algorithm.h" />
+    <ClInclude Include="AutoResetTimerExample.h" />
     <ClInclude Include="Bat.h" />
     <ClInclude Include="Cat.h" />
     <ClInclude Include="CirculationDependency.h" />
     <ClInclude Include="constexpr.h" />
     <ClInclude Include="DoubleLinkedList.h" />
+    <ClInclude Include="Event.h" />
     <ClInclude Include="Exception.h" />
+    <ClInclude Include="FileSystemSample.h" />
     <ClInclude Include="IFlyable.h" />
     <ClInclude Include="Inventory.h" />
     <ClInclude Include="IWalkable.h" />
+    <ClInclude Include="LambdaExample.h" />
     <ClInclude Include="linkedLIst.h" />
+    <ClInclude Include="MultiThread.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Node2.h" />
     <ClInclude Include="Person.h" />
@@ -152,6 +157,7 @@
     <ClInclude Include="SimpleHashMapTest.h" />
     <ClInclude Include="String.h" />
     <ClInclude Include="TemplateMetaPrograming.h" />
+    <ClInclude Include="Types.h" />
     <ClInclude Include="uniquePtr.h" />
     <ClInclude Include="unorderedMap.h" />
     <ClInclude Include="Vector.h" />

@@ -24,6 +24,15 @@
     <Filter Include="소스 파일\constexpr">
       <UniqueIdentifier>{6675a622-d42a-4dd8-b4ac-f7357889f2e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Lambda">
+      <UniqueIdentifier>{3142446d-cbbd-4a99-bea0-12445bf47b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FileSystem">
+      <UniqueIdentifier>{accb72e3-a2d2-417c-add8-63dd8912e156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MultiThreading">
+      <UniqueIdentifier>{0f0c159b-d7c6-4083-8d56-e5bf44c98e22}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Bat.cpp">
@@ -144,6 +153,24 @@
     </ClInclude>
     <ClInclude Include="rvalueTest.h">
       <Filter>소스 파일\SmartPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LambdaExample.h">
+      <Filter>소스 파일\Lambda</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystemSample.h">
+      <Filter>소스 파일\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiThread.h">
+      <Filter>소스 파일\MultiThreading</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>소스 파일\MultiThreading</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoResetTimerExample.h">
+      <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
